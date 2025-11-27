@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiro's Space</title>
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <nav class="top-bar">
+            <div class="logo">Quiro's Space</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="https://discord.gg/7NUtNhr4FZ" target="_blank" rel="noopener noreferrer">
+                    <i class="ri-discord-fill"></i> Discord
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-wrapper">
+            <div class="intro-box">
+                <img src="assets/acc-icon.png" alt="User Icon" class="user-icon" />
+                <h1>Welcome to Quiro's Space</h1>
+                <p>This is my personal corner of the internet where I share my projects, updates, and thoughts.</p>
+            </div>
+
+            <div class="scroll-btn" onclick="scrollToNews()">
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+        </section>
+
+        <section id="news">
+            <h2>Quick News</h2>
+
+            <div class="news-card">
+                <img src="assets/thubnail-week.avif" alt="Thumbnail Preview" class="news-img" />
+                <h3>Take a look at my new thumbnail series</h3>
+                <p>New thumbnails coming soon — stay tuned for updates!</p>
+
+                <div class="news-buttons">
+                    <a href="https://www.youtube.com/watch?v=xUpuSGqJr-0&list=PLfVkbGkFwwdBUKC_TpNf3iR14qdNlDGYv&index=7" target="_blank" rel="noopener noreferrer" class="news-btn">Take a Look</a>
+                    <a href="assets/" class="news-btn alt">Assets</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
