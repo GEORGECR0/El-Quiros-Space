@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiro's Space - Portfolio</title>
     <link rel="icon" type="image/png" href="assets/icon.png" />
-    <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
@@ -16,24 +17,46 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="assets.html">Assets</a></li>
-                <li><a href="https://discord.gg/7NUtNhr4FZ" target="_blank" rel="noopener noreferrer">
-                    <i class="ri-discord-fill"></i> Discord
-                </a></li>
+                <li><a href="https://discord.gg/7NUtNhr4FZ" target="_blank" rel="noopener noreferrer"><i class="ri-discord-fill"></i> Discord</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero-wrapper">
-            <div class="intro-box">
-                <h1>Welcome to my portolio</h1>
-                <p>This is my personal corner of the internet where I share my projects, updates, and thoughts.</p>
+        <section class="portfolio-wrapper">
+            <div class="portfolio-box">
+                <h1>Welcome to my portfolio</h1>
+                <p>This is the some of the best thumbnails I have made</p>
+
+                <div class="slider-container">
+                    <div class="slider" id="slider">
+                        <div class="slide"><img src="assets/portfolio/AshenFault T-Pack Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Bloxd ASMR Thumbnail Example.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Bloxd Bedwars Wallpaper.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Bloxd Every Bridging Method.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Bloxd Mobile Pro Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Bloxd with MC E-Girl Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/C_Bloxd Profile Picture.png"></div>
+                        <div class="slide"><img src="assets/portfolio/C_Bloxd Youtube Wallpaper.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Discord Server Manhunt Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Hive Skywars Wallpaper.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Hyper13 Live Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Ionic Dino MC Servers.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Ionic Dino OG Traps.png"></div>
+                        <div class="slide"><img src="assets/portfolio/MaskedPierce Montage Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Minecraft Gameplay Thumbnail.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Science Behind Thumbnails.png"></div>
+                        <div class="slide"><img src="assets/portfolio/Thumbnail Tutorial Series.png"></div>
+                    </div>
+
+                    <div id="prev" class="arrow ri-arrow-left-s-line"></div>
+                    <div id="next" class="arrow ri-arrow-right-s-line"></div>
+                </div>
+                <div class="dots" id="dots"></div>
             </div>
-
         </section>
-
     </main>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
